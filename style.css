@@ -1,0 +1,73 @@
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "main main main"
+      "one two three"; 
+  }
+  .one { grid-area: one; }
+  .two { grid-area: two; }
+  .three { grid-area: three; }
+  main { grid-area: main; }
+
+
+
+main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-size: cover;
+        background-color: darkturquoise;
+        font-size:xx-large;
+    }
+
+
+
+section {
+    background-color: #212121;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ 
+
+
+h1, h2, p { 
+        color: white;
+        text-align: center;
+}
+
+
+
+h2 { 
+    font-size:xx-large
+}
+
+
+
+p {
+    font-size: large;
+}
+
+
+
+.barone, .bartwo, .barthree {
+    margin: 0 auto; 
+    height: 25px;
+    width: 100px;
+}
+
+.barone {
+    background-color: deepskyblue;
+}
+
+.bartwo {
+    background-color: tomato;
+}
+
+.barthree {
+    background-color:darkturquoise;
+}

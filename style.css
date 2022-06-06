@@ -21,17 +21,16 @@ main {
     height: 450px;
         font-family: Arial, Helvetica, sans-serif;
         background-size: cover;
-        background-color: darkturquoise;
+        background-color: deepskyblue;
         font-size:xx-large;
     }
 
 
 section {
-    background-color: #212121;
+    background-color: lightgrey;
     padding-left: 50px;
     padding-right: 50px;
     height: 450px;
-    
 }
  
 
@@ -84,6 +83,15 @@ p {
         grid-template-areas: 
        "main main main"
         "one two three"
-        
+    }
+
+    section {
+        background-color: #212121;
+        font-color: white ;
+    }
+
+    main {
+        background-color: aquamarine;
+     
     }
 }  

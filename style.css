@@ -30,6 +30,8 @@ section {
     background-color: #212121;
     padding-left: 50px;
     padding-right: 50px;
+    height: 450px;
+    
 }
  
 
@@ -85,15 +87,3 @@ p {
         
     }
 }  
-
-
-
-
-
- /* desktop rules
-@media (min-width: 992px) { 
-    .container {
-        grid-template-columns: 1fr, 1fr, 1fr;
-        grid-template-rows: 1fr, 1fr;
-    }
-} */

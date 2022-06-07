@@ -27,7 +27,7 @@ main {
 
 
 section {
-    background-color: lightgrey;
+    background-color: azure;
     padding-left: 50px;
     padding-right: 50px;
     height: 450px;
@@ -35,11 +35,15 @@ section {
  
 
 
-h1, h2, p { 
-        color: white;
+ h2, p { 
+        color: black;
         text-align: center;
 }
 
+h1 {
+    text-align: center;
+    color: white;
+}
 
 
 h2 { 
@@ -87,11 +91,30 @@ p {
 
     section {
         background-color: #212121;
-        font-color: white ;
+        color: white ;
     }
 
     main {
         background-color: aquamarine;
-     
+    }
+}  
+
+
+
+@media (min-width: 992px) {
+    .container {
+        display: grid;
+        grid-template-areas: 
+       "main main main"
+        "one two three"
+    }
+
+    section {
+        background-color: #212121;
+        color: white ;
+    }
+
+    main {
+        background-color: aquamarine;
     }
 }  
